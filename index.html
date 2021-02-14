@@ -13,28 +13,34 @@
 
 		ga('create', 'UA-28724192-1', 'tristanlabelle.com');
 		ga('send', 'pageview');
+		
+		document.addEventListener("DOMContentLoaded", function()
+		{
+			// Poor man's spambot prevention
+			document.getElementById("email").href = "mai" + "ilto:con" + "tact@" + "tristanlabelle.com";
+		});
 	</script>
 </head>
 <body itemscope>
 	<div id="container">
 		<h1 itemprop="name">Tristan Labelle</h1>
+		<p>
+			Want to chat? Drop me a <a id="email">mail</a> or book time on my <a href="https://calendly.com/tristanlabelle/30min">calendar</a>.
+		</p>
 		<h2>As a Software Engineer</h2>
 		<p>
-			I focus on tools and systems programming: graphics, shaders, GPGPU, security, compilers, file formats,
-			object-oriented and API design.
+			I am especially passionate about architecture and API design, and have experience with graphics, shaders, compilers, game development and security.
 			Modern C++ and C# are my go-to languages.
 			My work experiences include the Visual Studio C++ Developer Experience team, the Direct3D HLSL Compiler team,
-			the Windows Composition and Rendering team, and gameplay and tools programming in the videogame industry at Electronic Arts and Behavior.
-			I have been programming since age ~10 and graduated in 2014 with a BSc in Computer Science with honours at McGill University.
+			the Windows Composition and Rendering team, and gameplay and tools programming in the video game industry.
+			I have been programming since age 10 and graduated in 2014 with a BSc in Computer Science with honours at McGill University.
 		</p>
 		<p>
-			See my <a href="http://linkedin.com/in/tristanlabelle">LinkedIn profile</a>
-			or drop me a mail at contact&commat;tristan<!--hi spambots-->labelle<script type="text/javascript">document.write(".com");</script>.
+			See my <a href="http://linkedin.com/in/tristanlabelle">LinkedIn profile</a>.
 		</p>
 		<h2>As a Musician</h2>
 		<p>
-			I've been a pianist for some 15 years, lately focusing on playing jazz standards and latin music in small ensembles.
-			I also enjoy playing written music, where my repertoire has revolved around high quality video game music arrangements.
+			I started playing piano in middle school, with a repertoire covering latin music, jazz standards and video game music arrangements.
 		</p>
 		<p>
 			See my <a href="http://youtube.com/c/trillianonpiano">YouTube channel</a>.
