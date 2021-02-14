@@ -1,3 +1,6 @@
+---
+title: Tristan Labelle
+---
 Want to chat? Drop me an [email](mailto:contact@tristanlabelle.com) or book some time on my [calendar](https://calendly.com/tristanlabelle/30min).
 
 # As a Software Engineer
