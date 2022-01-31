@@ -38,3 +38,19 @@ p
     text-align: justify;
     line-height: 150%;
 }
+
+#socialmedia
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.socialmedia-icon
+{
+    width: 20pt;
+    height: 20pt;
+    margin: 0 10pt;
+}
